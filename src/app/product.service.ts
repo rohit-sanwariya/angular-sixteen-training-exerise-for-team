@@ -8,7 +8,6 @@ import { IProduct } from './iproduct';
 })
 export class ProductsService {
 
-  constructor() { }
   getProducts():Observable<Array<IProduct>>{
     return inject(HttpClient).get<Array<IProduct>>('https://fakestoreapi.com/products')
   }
