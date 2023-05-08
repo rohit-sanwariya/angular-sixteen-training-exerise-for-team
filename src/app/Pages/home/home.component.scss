@@ -1,0 +1,13 @@
+main{
+  display: grid;
+  width: 100vw;
+  min-height: 100vh;
+  grid-template-columns: repeat(4,1fr);
+  .mat-card{
+    margin: 1rem;
+    box-shadow: -10px 8px 11px 1px #333 !important;
+    img.product-image{
+      margin: 0.25rem;
+    }
+  }
+}
